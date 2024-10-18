@@ -1,0 +1,35 @@
+{
+  "status": "success",
+  "data": {
+    "threads": [
+      {
+        "id": 1,
+        "content": "This is first tweet example.",
+        "user": {
+          "id": 101,
+          "username": "username1",
+          "name": "User 1",
+          "profile_picture": "https://example.com/user1.jpg"
+        },
+        "created_at": "2024-10-16T12:34:56Z",
+        "likes": 10,
+        "reply": 5,
+        "isLiked": true
+      },
+      {
+        "id": 2,
+        "content": "This is first tweet example.",
+        "user": {
+          "id": 102,
+          "username": "username2",
+          "name": "User 2",
+          "profile_picture": "https://example.com/user2.jpg"
+        },
+        "created_at": "2024-10-17T12:34:56Z",
+        "likes": 10,
+        "reply": 5,
+        "isLiked": false
+      }
+    ]
+  }
+}
