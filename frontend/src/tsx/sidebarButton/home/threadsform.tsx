@@ -78,14 +78,14 @@ export const status =
 
 export const profileThreads =
   <Flex flexDirection={'column'} alignItems={'start'} width={'100%'} borderRadius={'14px'} justifyContent={'space-around'} height={'45%'} pt={'1rem'} mt={'2rem'} mx={'auto'}>
-    <Heading as={'h3'} size={'md'} marginStart={'1.33rem'} mb={'1rem'} color={'whitesmoke'} fontWeight={'medium'}>Bagus Hendrawan</Heading>
+    <Heading as={'h3'} size={'md'} marginStart={'1.33rem'} mb={'1rem'} color={'whitesmoke'} fontWeight={'medium'}>Irham Rahmat S</Heading>
     <Box width={'90%'} marginX={'auto'} height={'42%'} mb={'1rem'}>
       <Image src="https://images.pexels.com/photos/1172207/pexels-photo-1172207.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" width={'720px'} height={'80px'} objectFit={'cover'} borderRadius={'12px'} />
       <Image borderRadius={'50%'} width={'64px'} height={'64px'} objectFit={'cover'} src={'https://images.pexels.com/photos/1172207/pexels-photo-1172207.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'} zIndex={4} position={'relative'} top={'-2rem'} left={'1rem'} border={`4px solid ${color.greyCard}`} />
       <Button colorScheme='gray' size={'sm'} variant='outline' color={'white'} zIndex={4} position={'relative'} top={'-3rem'} left={'24rem'} borderRadius={'14px'}>Edit Profile</Button>
     </Box>
     <Flex flexDirection={'column'} alignItems={'start'} width={'90%'} marginX={'auto'} gap={'0.33rem'}>
-      <Heading as={'h3'} size={'md'} color={'whitesmoke'}>Bagus Hendrawan</Heading>
+      <Heading as={'h3'} size={'md'} color={'whitesmoke'}>Irham Rahmat S</Heading>
       <Text fontSize={'1rem'} color={color.grey}>@bag-user</Text>
       <Text color={'white'}>Not all who wander are lost</Text>
     </Flex>
@@ -110,7 +110,7 @@ export const otherProfileThreads =
       <Button colorScheme='gray' size={'sm'} variant='outline' color={'white'} zIndex={4} position={'relative'} top={'-3rem'} left={'24rem'} borderRadius={'14px'}>Edit Profile</Button>
     </Box>
     <Flex flexDirection={'column'} alignItems={'start'} width={'90%'} marginX={'auto'} gap={'0.33rem'}>
-      <Heading as={'h3'} size={'md'} color={'whitesmoke'}>Bagus Hendrawan</Heading>
+      <Heading as={'h3'} size={'md'} color={'whitesmoke'}>Irham Rahmat S</Heading>
       <Text fontSize={'1rem'} color={color.grey}>@bag-user</Text>
       <Text color={'white'}>Not all who wander are lost</Text>
     </Flex>
